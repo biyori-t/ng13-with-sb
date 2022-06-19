@@ -13,10 +13,6 @@ export default {
 } as Meta;
 
 export const Primary: StoryObj<ButtonComponent> = {
-  render: (args) => ({
-    template: `<storybook-button [primary]="primary" [label]="label"></storybook-button>`,
-    props: args,
-  }),
   args: {
     primary: true,
     label: 'Button',
@@ -24,20 +20,12 @@ export const Primary: StoryObj<ButtonComponent> = {
 };
 
 export const Secondary: StoryObj<ButtonComponent> = {
-  render: (args) => ({
-    template: `<storybook-button [label]="label"></storybook-button>`,
-    props: args,
-  }),
   args: {
     label: 'Button',
   },
 };
 
 export const Large: StoryObj<ButtonComponent> = {
-  render: (args) => ({
-    template: `<storybook-button [size]="size" [label]="label"></storybook-button>`,
-    props: args,
-  }),
   args: {
     size: 'large',
     label: 'Button',
@@ -45,10 +33,6 @@ export const Large: StoryObj<ButtonComponent> = {
 };
 
 export const Small: StoryObj<ButtonComponent> = {
-  render: (args) => ({
-    template: `<storybook-button [size]="size" [label]="label"></storybook-button>`,
-    props: args,
-  }),
   args: {
     size: 'small',
     label: 'Button',
