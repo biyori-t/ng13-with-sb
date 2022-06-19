@@ -425,7 +425,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "StoryObj<ButtonComponent>",
-                "defaultValue": "{\n  render: (args) => ({\n    template: `<storybook-button [size]=\"size\" [label]=\"label\"></storybook-button>`,\n    props: args,\n  }),\n  args: {\n    size: 'large',\n    label: 'Button',\n  },\n}"
+                "defaultValue": "{\n  args: {\n    size: 'large',\n    label: 'Button',\n  },\n}"
             },
             {
                 "name": "LoggedIn",
@@ -475,7 +475,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "StoryObj<ButtonComponent>",
-                "defaultValue": "{\n  render: (args) => ({\n    template: `<storybook-button [primary]=\"primary\" [label]=\"label\"></storybook-button>`,\n    props: args,\n  }),\n  args: {\n    primary: true,\n    label: 'Button',\n  },\n}"
+                "defaultValue": "{\n  args: {\n    primary: true,\n    label: 'Button',\n    onClick: {\n      emit: () => {\n        console.log('test');\n      },\n    } as any,\n  },\n}"
             },
             {
                 "name": "Secondary",
@@ -485,7 +485,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "StoryObj<ButtonComponent>",
-                "defaultValue": "{\n  render: (args) => ({\n    template: `<storybook-button [label]=\"label\"></storybook-button>`,\n    props: args,\n  }),\n  args: {\n    label: 'Button',\n  },\n}"
+                "defaultValue": "{\n  args: {\n    label: 'Button',\n  },\n}"
             },
             {
                 "name": "Small",
@@ -495,7 +495,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "StoryObj<ButtonComponent>",
-                "defaultValue": "{\n  render: (args) => ({\n    template: `<storybook-button [size]=\"size\" [label]=\"label\"></storybook-button>`,\n    props: args,\n  }),\n  args: {\n    size: 'small',\n    label: 'Button',\n  },\n}"
+                "defaultValue": "{\n  args: {\n    size: 'small',\n    label: 'Button',\n  },\n}"
             },
             {
                 "name": "Template",
@@ -555,7 +555,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "StoryObj<ButtonComponent>",
-                    "defaultValue": "{\n  render: (args) => ({\n    template: `<storybook-button [size]=\"size\" [label]=\"label\"></storybook-button>`,\n    props: args,\n  }),\n  args: {\n    size: 'large',\n    label: 'Button',\n  },\n}"
+                    "defaultValue": "{\n  args: {\n    size: 'large',\n    label: 'Button',\n  },\n}"
                 },
                 {
                     "name": "Primary",
@@ -565,7 +565,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "StoryObj<ButtonComponent>",
-                    "defaultValue": "{\n  render: (args) => ({\n    template: `<storybook-button [primary]=\"primary\" [label]=\"label\"></storybook-button>`,\n    props: args,\n  }),\n  args: {\n    primary: true,\n    label: 'Button',\n  },\n}"
+                    "defaultValue": "{\n  args: {\n    primary: true,\n    label: 'Button',\n    onClick: {\n      emit: () => {\n        console.log('test');\n      },\n    } as any,\n  },\n}"
                 },
                 {
                     "name": "Secondary",
@@ -575,7 +575,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "StoryObj<ButtonComponent>",
-                    "defaultValue": "{\n  render: (args) => ({\n    template: `<storybook-button [label]=\"label\"></storybook-button>`,\n    props: args,\n  }),\n  args: {\n    label: 'Button',\n  },\n}"
+                    "defaultValue": "{\n  args: {\n    label: 'Button',\n  },\n}"
                 },
                 {
                     "name": "Small",
@@ -585,7 +585,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "StoryObj<ButtonComponent>",
-                    "defaultValue": "{\n  render: (args) => ({\n    template: `<storybook-button [size]=\"size\" [label]=\"label\"></storybook-button>`,\n    props: args,\n  }),\n  args: {\n    size: 'small',\n    label: 'Button',\n  },\n}"
+                    "defaultValue": "{\n  args: {\n    size: 'small',\n    label: 'Button',\n  },\n}"
                 }
             ],
             "src/stories/Header.stories.ts": [
